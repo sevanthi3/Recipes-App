@@ -1,27 +1,35 @@
-# Recipes API
+# 🥘 Recipes CRUD App
 
-A RESTful API for managing recipes built with Node.js, Express, and MongoDB.
+A full-featured backend API to manage recipes using **Node.js**, **Express.js**, **MongoDB**, and **Mongoose**. It follows the **MVC architecture** and uses **Postman** for API documentation and testing.
 
-## Features
+## 🚀 Tech Stack Used
 
-- Create, read, update, and delete recipes
-- MongoDB database integration with Mongoose
-- MVC architecture
+- ⚙️ Node.js  
+- 🚦 Express.js  
+- 🍃 MongoDB  
+- 🧬 Mongoose  
+- 📬 Postman  
 
-## API Endpoints
+## ⚒️ Getting Started
+## 1️⃣ Install Dependencies
+npm install
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | /api/recipes | Get all recipes |
-| GET | /api/recipes/:id | Get a single recipe by ID |
-| POST | /api/recipes | Create a new recipe |
-| PUT | /api/recipes/:id | Update a recipe |
-| DELETE | /api/recipes/:id | Delete a recipe |
+Add Environment Variables
+MONGODB_URI=mongodb+srv://sevanthimayak3:mayak%401234@cluster0.o1u6k3l.mongodb.net/recipes-app
+Run the App
+npm start
 
-## Setup Instructions
+Server runs on:
+http://localhost:5000
+🧪 Postman Collection
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create a `.env` file with your MongoDB connection string
-4. Run the server: `npm run dev`
+Test all APIs using Postman:
+👉 Postman Link:
+[https://documenter.getpostman.com/view/44617620/2sB2j7dpEj]
+
+🙋‍♀️ Developed by,
+
+Sevanthi.M
+Thanks for visiting!
+
 
